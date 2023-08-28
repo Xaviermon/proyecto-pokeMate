@@ -9,7 +9,8 @@ import axios from 'axios'
 import CardsPokemon from './componentes/cardsPokemon/cardsPokemon'
 import EjercicioDetail from './view/ejercicioDetail/ejercicioDetail'
 
-axios.defaults.baseURL = 'http://localhost:3001'
+//axios.defaults.baseURL = 'http://localhost:3001'
+axios.defaults.baseURL = 'https://proyecto-pokemate-production.up.railway.app/'
 
 function App() {
 
