@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body #root {
+	position: relative;
+	background-image: url('./imagenes/fondoHome.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;
+
+}
