@@ -9,7 +9,6 @@ const EjercicioDetail = () => {
   const dispatch = useDispatch();
 	const [ rpta, setRpta ] = useState('');
 	const user = JSON.parse(localStorage.getItem("token"))
-	console.log(rpta);
   const navigate = useNavigate();
   const ejercicio = useSelector((state) => state.ejerciciosDetail);
 	let relation = {

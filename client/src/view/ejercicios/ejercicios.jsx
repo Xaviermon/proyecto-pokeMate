@@ -6,7 +6,6 @@ import CardEjercicios from "../../componentes/cardEjercicio/cardEjercicio";
 const Ejercicios = () => {
 	const dispatch = useDispatch();
   const ejercicios = useSelector((state) => state.ejercicios);
-	console.log(ejercicios);
 
   useEffect(() => {
 		if(ejercicios.length === 0) dispatch(getEjercicios());
